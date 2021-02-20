@@ -1,0 +1,15 @@
+.App {
+  box-sizing: border-box;
+  scroll-behavior: "smooth";
+  text-align: center;
+}
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200;1,300&display=swap");
+
+html {
+  font-size: 50%;
+
+  @media screen and (min-width: 768px) {
+    font-size: 62.5%;
+  }
+}
