@@ -5,9 +5,10 @@ export const useStyles = createUseStyles({
     display: "flex",
     justifyContent: "space-between",
     padding: "5% 1.5%",
-    width: "70%",
+    width: "68%",
     margin: "auto",
     background: "#FAFAFA",
+    maxWidth: "920px",
   },
   header: {
     margin: "0",

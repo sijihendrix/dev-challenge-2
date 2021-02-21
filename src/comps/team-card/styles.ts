@@ -14,7 +14,8 @@ export const useStyles = createUseStyles({
   },
   img: {
     height: "auto",
-    width: "25rem",
+    width: "21rem",
+    paddingRight: "3%",
   },
   name: {
     fontFamily: "Poppis",
