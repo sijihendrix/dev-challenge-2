@@ -11,39 +11,43 @@ interface dataProps {
   alt?: string;
   name?: string;
   middleContainer?: boolean;
+  rightContainer?: boolean;
+  bottomRightContainer?: boolean;
 }
 
 export const data: dataProps[] = [
   {
-    role: "Art director",
+    role: "Product owner",
     alt: "Bill Mahoney",
     name: "Bill Mahoney",
     image: Bill,
   },
   {
-    role: "Product owner",
+    role: "Art director",
     alt: "Saba Cabrera",
     name: "Saba Cabrera",
-    image: Skylar,
     middleContainer: true,
-  },
-  {
-    role: "UX Designer",
-    alt: "Skylah Lu ",
-    name: "Skylah Lu",
     image: Saba,
-  },
-  {
-    role: "Developer",
-    alt: "Griff Richards ",
-    name: "Griff Richards",
-    image: Griff,
+    rightContainer: true,
   },
   {
     role: "Tech Lead ",
     alt: "Shae Le ",
     name: "Shae Le",
     image: Shae,
+  },
+  {
+    role: "UX Designer",
+    alt: "Skylah Lu ",
+    name: "Skylah Lu",
+    image: Skylar,
+    rightContainer: true,
+  },
+  {
+    role: "Developer",
+    alt: "Griff Richards ",
+    name: "Griff Richards",
+    image: Griff,
     middleContainer: true,
   },
 
@@ -52,5 +56,6 @@ export const data: dataProps[] = [
     alt: "Stan John",
     name: "Stan John ",
     image: Stan,
+    rightContainer: true,
   },
 ];

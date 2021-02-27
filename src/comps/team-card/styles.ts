@@ -41,11 +41,15 @@ export const useStyles = createUseStyles({
 
     writingMode: "vertical-rl",
   },
+  rightContainer: {},
 
   "@media (max-width: 504px)": {
     img: {
       width: "16rem",
       paddingRight: "3%",
+    },
+    rightContainer: {
+      paddingTop: "25%",
     },
   },
 });

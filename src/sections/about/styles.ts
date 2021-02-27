@@ -31,8 +31,8 @@ export const useStyles = createUseStyles({
   who: {
     fontStyle: "bold",
     fontWeight: "800",
-    fontSize: "2rem",
-    lineHeight: "27px",
+    fontSize: "1.8rem",
+    lineHeight: "20px",
     textTransform: "uppercase",
     margin: "0",
     width: "40%",
@@ -41,10 +41,10 @@ export const useStyles = createUseStyles({
   about: {
     fontStyle: "normal",
     fontWeight: "normal",
-    fontSize: "1.6rem",
+    fontSize: "1.7rem",
     lineHeight: "27px",
     margin: "0",
-    width: "85%",
+    width: "100%",
   },
   "@media (max-width: 504px)": {
     root: {
@@ -56,6 +56,7 @@ export const useStyles = createUseStyles({
 
     header: {
       width: "100%",
+      fontSize: "4.5rem",
     },
     container: {
       width: "100%",
@@ -63,9 +64,11 @@ export const useStyles = createUseStyles({
     },
     who: {
       width: "100%",
+      fontSize: "2.2rem",
     },
     about: {
-      width: "80%",
+      width: "95%",
+      fontSize: "1.8rem",
     },
   },
 });

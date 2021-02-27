@@ -16,9 +16,29 @@ export const useStyles = createUseStyles({
   middleContainer: {
     paddingTop: "10%",
   },
+  rightContainer: {
+    paddingTop: "0%",
+  },
+  bottomRightContainer: {
+    paddingTop: "0%",
+  },
+
   "@media (max-width: 504px)": {
     root: {
-      width: "90%",
+      width: "95%",
+    },
+
+    container: {
+      paddingBottom: "10%",
+    },
+
+    middleContainer: {
+      paddingTop: "0%",
+    },
+  },
+  "@media (max-width: 320px)": {
+    root: {
+      width: "100%",
     },
   },
 });
