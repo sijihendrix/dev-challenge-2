@@ -17,6 +17,8 @@ export const useStyles = createUseStyles({
     paddingTop: "10%",
   },
   "@media (max-width: 504px)": {
-    root: {},
+    root: {
+      width: "90%",
+    },
   },
 });
